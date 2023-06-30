@@ -1,0 +1,21 @@
+.header {
+  &__title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+
+    span {
+      font-size: em(24);
+      color: #ac393d;
+      @include mobile {
+        font-size: em(24);
+        text-transform: capitalize;
+      }
+    }
+  }
+  &__title svg {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}

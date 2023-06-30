@@ -1,0 +1,21 @@
+.language {
+    &__items {
+        display: flex;
+        align-items: center;
+        gap: em(10);
+        padding: em(4);
+        border-radius: 8px;
+        background: #f2f2f2;
+    }
+    &__item {
+        padding: em(8) em(10);
+        span {
+            font-size: em(16);
+            text-transform: capitalize;
+        }
+        &--active {
+            background: #ffffff;
+            border-radius: 8px;
+        }
+    }
+}
